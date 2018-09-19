@@ -8,13 +8,13 @@ module.exports = {
   devtool: 'inline-source-map',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].bundle.js',
+    filename: 'index.[hash].js',
     publicPath: '/'
   },
   plugins: [
     new CleanWebpackPlugin([ '../dist' ]),
     new HtmlWebpackPlugin({
-      title: 'Development'
+      template: path.resolve(__dirname, '../test/index.html'),
     })
   ],
   module: {
