@@ -1,0 +1,35 @@
+{
+  "name": "injected-notify",
+  "version": "1.0.0",
+  "description": "A lib to do callback when http site be injected by network operator",
+  "main": "index.js",
+  "scripts": {
+    "dist": "npx webpack --config build/webpack.dist.config.js",
+    "dev": "node build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonjcpeng/injected-notify.git"
+  },
+  "keywords": [
+    "inject"
+  ],
+  "author": "jasonjcpeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonjcpeng/injected-notify/issues"
+  },
+  "homepage": "https://github.com/jasonjcpeng/injected-notify#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "express": "^4.16.3",
+    "html-webpack-plugin": "^3.2.0",
+    "json-parse-better-errors": "^1.0.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.3.0"
+  }
+}
