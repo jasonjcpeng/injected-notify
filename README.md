@@ -2,7 +2,9 @@
 http注入感知、防御工具 /A lib to do callback when http site be injected by network operator
 
 ## Usage
+```bash
 npm i injected-notify --save
+```
 
 ### In AMD
 ```js
