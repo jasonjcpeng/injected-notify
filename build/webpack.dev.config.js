@@ -14,6 +14,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin([ '../dist' ]),
     new HtmlWebpackPlugin({
+      inject: 'head',
       template: path.resolve(__dirname, '../test/index.html'),
     })
   ],

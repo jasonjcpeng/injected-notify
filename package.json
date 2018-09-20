@@ -2,7 +2,7 @@
   "name": "injected-notify",
   "version": "1.0.0",
   "description": "A lib to do callback when http site be injected by network operator",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dist": "npx webpack --config build/webpack.dist.config.js",
     "dev": "node build/server.js"
